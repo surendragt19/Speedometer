@@ -1,0 +1,29 @@
+.speedometer-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.speedometer {
+  transform: rotate(0deg);
+}
+
+.speedometer-bg {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.speedometer-fg {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.tick {
+  stroke: #000;
+}
+
+.tick.major {
+  stroke-width: 2;
+}
+
+.tick-label {
+  font-size: 12px;
+  fill: #000;
+}
